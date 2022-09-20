@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\JetMarket.App\JetMarket.App.csproj" />
+    <ProjectReference Include="..\JetMarket.Domain\JetMarket.Domain.csproj" />
+    <ProjectReference Include="..\JetMarket.Infra\JetMarket.Infra.csproj" />
+  </ItemGroup>
+
+</Project>

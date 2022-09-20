@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JetMarket", "JetMarket\JetMarket.csproj", "{F491E4AC-1621-40E8-97CA-CCAA708ABB23}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{D737BFEE-3B2B-484E-8F86-DDA009B0862C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{58378CB3-CD7A-4440-B35C-613CC2F1B128}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra", "Infra", "{2019FA31-8575-4604-997B-020462F724D3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{B4A5AAA2-EE25-4ED7-A852-C45E65A7A634}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JetMarket.Domain", "JetMarket.Domain\JetMarket.Domain.csproj", "{E087CFEB-F954-493A-82EC-6AE026DD63E9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JetMarket.Infra", "JetMarket.Infra\JetMarket.Infra.csproj", "{D60C3E6A-5A8C-4E42-B2AA-E4D7A4B90EDC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JetMarket.App", "JetMarket.App\JetMarket.App.csproj", "{B2D32B1B-558E-4841-9FC3-E859D75DDE7A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ScriptBanco", "ScriptBanco", "{E2CE3BE4-5DFF-4BEF-96EF-19435E586E65}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\sqlJetMarket.sql = ..\..\..\sqlJetMarket.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F491E4AC-1621-40E8-97CA-CCAA708ABB23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F491E4AC-1621-40E8-97CA-CCAA708ABB23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F491E4AC-1621-40E8-97CA-CCAA708ABB23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F491E4AC-1621-40E8-97CA-CCAA708ABB23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E087CFEB-F954-493A-82EC-6AE026DD63E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E087CFEB-F954-493A-82EC-6AE026DD63E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E087CFEB-F954-493A-82EC-6AE026DD63E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E087CFEB-F954-493A-82EC-6AE026DD63E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D60C3E6A-5A8C-4E42-B2AA-E4D7A4B90EDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D60C3E6A-5A8C-4E42-B2AA-E4D7A4B90EDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D60C3E6A-5A8C-4E42-B2AA-E4D7A4B90EDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D60C3E6A-5A8C-4E42-B2AA-E4D7A4B90EDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2D32B1B-558E-4841-9FC3-E859D75DDE7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2D32B1B-558E-4841-9FC3-E859D75DDE7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2D32B1B-558E-4841-9FC3-E859D75DDE7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2D32B1B-558E-4841-9FC3-E859D75DDE7A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F491E4AC-1621-40E8-97CA-CCAA708ABB23} = {D737BFEE-3B2B-484E-8F86-DDA009B0862C}
+		{E087CFEB-F954-493A-82EC-6AE026DD63E9} = {58378CB3-CD7A-4440-B35C-613CC2F1B128}
+		{D60C3E6A-5A8C-4E42-B2AA-E4D7A4B90EDC} = {2019FA31-8575-4604-997B-020462F724D3}
+		{B2D32B1B-558E-4841-9FC3-E859D75DDE7A} = {B4A5AAA2-EE25-4ED7-A852-C45E65A7A634}
+		{E2CE3BE4-5DFF-4BEF-96EF-19435E586E65} = {2019FA31-8575-4604-997B-020462F724D3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {41F0EA08-B539-48E8-91D4-EC8E9F4338ED}
+	EndGlobalSection
+EndGlobal
